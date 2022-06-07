@@ -62,6 +62,7 @@ class App extends Component {
           height: '100vh',
           fontSize: 20,
           color: '#010101',
+          margin: 15,
         }}
       >
         <h1>Phonebook</h1>

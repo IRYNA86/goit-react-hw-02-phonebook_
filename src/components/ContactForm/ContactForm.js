@@ -30,7 +30,7 @@ class ContactForm extends Component {
       <form className={s.form} onSubmit={this.handleSubmit}>
         <label className={s.label} htmlFor={this.inputNameId}>
           Name
-          <input
+          <input className={s.input}
             type="text"
             name="name"
             value={name}
@@ -43,7 +43,7 @@ class ContactForm extends Component {
         </label>
         <label className={s.label} htmlFor={this.inputNumberId}>
           Number
-          <input
+          <input className={s.input}
             type="tel"
             name="number"
             value={number}
@@ -54,7 +54,7 @@ class ContactForm extends Component {
             required
           />
         </label>
-        <button type="submit">Add contact</button>
+        <button className={s.button} type="submit">Add contact</button>
       </form>
     );
   }
